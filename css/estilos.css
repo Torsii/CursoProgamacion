@@ -1,0 +1,89 @@
+h1, h2{
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    text-decoration:underline aquamarine;
+    color:rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-image:url("http://www.solofondos.com/wp-content/uploads/2015/11/21omxpw.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:0;
+    padding:0;
+}
+ul{
+    list-style-type:circle;
+    color:white;
+    
+}
+
+.tabla{
+    width:100%;
+    border:2px dotted white;
+    margin:25px 0;
+    font-size:1em;
+    min-width: 300px;
+    
+}
+.tabla thead tr{
+    background-color: aquamarine;
+    color:black;
+    text-align: left;
+}
+.tabla th , .tabla td{
+    padding: 12px 15px;
+}
+td{
+    background-color: white;
+}
+#navegacion{
+    background-color: aquamarine;
+    width:50%;
+    margin:auto;
+}
+#navegacion ul li{
+    display:inline-block;
+}
+#navegacion ul li a{
+    color:white;
+    text-decoration: none;
+    display:block;
+    padding:10px 33.1px;
+    margin-left:0;
+    
+}
+#navegacion ul li a:hover{
+    background-color: rgb(49, 102, 84);
+}
+.ul-nav{
+    list-style: none;
+    padding:0;
+    margin:0;
+}
+#div-list{
+    border-radius:10px;
+    width:30%;
+    display:block;
+    margin:auto;
+    padding:0;
+}
+#div-list ul li{
+    background-color: aquamarine;
+    padding:10px;
+    list-style: none;
+}
+span, .lista{
+    color:#FFF;
+    padding:15px;
+}
+#lista{
+    padding:0;
+}
+span{
+    padding-right:30px;
+}
+#div-list ul li:hover {
+    background-color: rgb(49, 102, 84);
+}
